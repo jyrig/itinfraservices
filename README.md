@@ -3,7 +3,7 @@ IT infrastructure services course materials
 
 Main page with supporting information about the course
 
-Link to lecture recordings: https://echo360.org.uk/section/e2b66640-1026-46c8-b739-aaefd4dcfe10/home
+Link to lecture recordings: https://echo360.org.uk/section/0a7e8d1b-9780-41b0-a533-656c31c59b74/public
 
 ### Course agenda:
 ### week1
