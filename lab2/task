@@ -1,0 +1,5 @@
+1. create init.yaml
+ - create ssh keys for admin
+ - sudo without password
+ - create users for teachers in group sysadmins
+ - write to console list of processes
