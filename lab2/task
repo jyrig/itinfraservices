@@ -1,5 +1,5 @@
 1. create init.yaml
- - create ssh keys for admin
+ - create ssh keys for admin (your initial user)
  - sudo without password
- - create users for teachers in group sysadmins
+ - create users for teachers. Add them to additional group sysadmins(+ssh keys)
  - write to console list of processes
