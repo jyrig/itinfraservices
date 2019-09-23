@@ -5,6 +5,8 @@ Main page with supporting information about the course
 
 Link to lecture recordings: https://echo360.org.uk/section/0a7e8d1b-9780-41b0-a533-656c31c59b74/public
 
+email: roman.kuchin@itcollege.ee
+
 ### Course agenda:
 ### week1
 >**topic:** Infro to IaaC. Ansible basics. First playbook   
