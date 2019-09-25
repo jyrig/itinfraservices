@@ -11,7 +11,7 @@ One play should install and configure
 
 Another play should install and configure
  - MySQL server (MariaDB is also acceptable if you like it better)
- - MySQL user for WordpPress
+ - MySQL user for WordPress
 
 These plays should use different `hosts` pattern, so that it should be possible
 to install WordPress and MySQL on different servers.
@@ -21,7 +21,7 @@ You may add more plays if needed.
 Requirements:
  - Apache should serve WordPress from the default HTTP port 80
  - WordPress should use dedicated username/password to connect to MySQL
- - No secrets should be commited to Git repository
+ - No secrets should be committed to Git repository
 
 Expected files in your Git repository:
  - `lab4/hosts`
