@@ -1,0 +1,61 @@
+---
+- name: Initial setup
+  hosts: all
+  remote_user: user
+  become: yes
+  tasks:
+    - name: Setup interface
+      template:
+        src: templates/enp0s8.j2
+        dest: /etc/netplan/55-enp0s8.yaml
+      notify:
+        - netplan apply
+
+  handlers:
+    - name: netplan apply
+      shell: netplan apply
+
+- name: setup dns
+  hosts: dns
+  remote_user: user
+  become: yes
+  tasks:
+    - name: dns package
+      apt:
+        package: bind9
+
+    - name: config bind
+      template:
+        src: templates/named.conf.options.j2
+        dest: /etc/bind/named.conf.options
+      notify:
+        - restart bind
+        - check conf
+
+    - name: config bind.local
+      template:
+        src: templates/named.conf.local.j2
+        dest: /etc/bind/named.conf.local
+      notify:
+        - restart bind
+        - check conf
+
+    - name: config db
+      template:
+        src: templates/db.pythonux.j2
+        dest: /etc/bind/db.pythonux
+      when: dns_role == "master"
+      notify:
+        - bind reload db
+
+  handlers:
+    - name: check conf
+      shell: named-checkconf
+
+    - name: restart bind
+      service:
+        name: bind9
+        state: restarted
+
+    - name: bind reload db
+      shell: rndc reload
