@@ -7,3 +7,5 @@
  - A records for intra01,infra02
  - CNAMES for ns1,ns2
  - ns.<startup> should return 2 IPs
+- dns records should come from variables
+- every dns records updates should increase serial numbers
