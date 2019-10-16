@@ -10,39 +10,39 @@ email: roman.kuchin@itcollege.ee
 ## Course agenda
 ### Week 1
 >**topic:** Infro to IaaC. Ansible basics. First playbook.  
->**lab:** Install VirtualBox. Install guest OS. Write the first ansible commands
+>**lab 1:** VirtualBox, Ubuntu VM, first ansible commands
 
 ### Week 2
 >**topic:** Ansible playbooks.  
->**lab:** Create first playbook. Manage users, SSH keys and sudo rules.
+>**lab 2:** First Ansible playbook: manage users, SSH keys and sudo rules.
 
 ### Week 3
 >**topic:** Web servers. Ansible configuration file.  
->**lab:** Install Apache HTTPd with PHP module.
+>**lab 3:** Apache HTTPd with PHP module.
 
 ### Week 4
 >**topic:** Web application. Ansible variables.  
->**lab:** Install Apache HTTPd, WordPress and MySQL server.
+>**lab 4:** Apache HTTPd, WordPress and MySQL server.
 
 ### Week 5
 >**topic:** Templates  
->**lab:** Jinja2 templates  
+>**lab 5:** Jinja2 templates  
 >**services:** DNS
 
 ### Week 6
 >**topic:** Advanced templates  
->**lab:** Jinja2 magic  
->**services:** NTP
+>**lab 5:** Jinja2 magic  
+>**services:** DNS
 
 ### Week 7
->**topic:** Ansible roles  
->**lab:** Backup for mysql  
->**services:** Centralised backups
+>**topic:** Backups  
+>**lab 6:** Backups  
+>**services:** Backups
 
 ### Week 8
->**topic:** Ansible roles  
->**lab:** Backup for mysql  
->**services:** Working backups
+>**topic:** Backups  
+>**lab 6:** Backups  
+>**services:** Backups
 
 ### Week 9
 >**topic:** Monitoring  
