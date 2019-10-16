@@ -5,7 +5,9 @@ Main page with supporting information about the course
 
 Link to lecture recordings: https://echo360.org.uk/section/0a7e8d1b-9780-41b0-a533-656c31c59b74/public
 
-email: roman.kuchin@itcollege.ee
+Email: roman.kuchin@itcollege.ee
+
+Unfortunately we do not have any course forum / discussion board set up, but you can use [GitHub issues](https://github.com/romankuchin/itinfraservices/issues) for that.
 
 ## Course agenda
 ### Week 1
