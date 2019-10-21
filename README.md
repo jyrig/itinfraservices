@@ -11,40 +11,50 @@ Unfortunately we do not have any course forum / discussion board set up, but you
 
 ## Course agenda
 ### Week 1
->**topic:** Infro to IaaC. Ansible basics. First playbook.  
->**lab 1:** VirtualBox, Ubuntu VM, first ansible commands
+>**Topic:** Infro to IaaC; Ansible basics, first playbook
+([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-04T18:10:00.000_2019-09-04T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 1:** VirtualBox, Ubuntu VM, first ansible commands
+([video since 01:38, no sound](https://echo360.org.uk/lesson/G_0511e05b-e831-4dbb-9ee5-e1895b28a063_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-04T19:40:00.000_2019-09-04T21:15:00.000/classroom#sortDirection=desc)).  
 
 ### Week 2
->**topic:** Ansible playbooks.  
->**lab 2:** First Ansible playbook: manage users, SSH keys and sudo rules.
+>**Topic:** Ansible playbooks
+([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-11T18:10:00.000_2019-09-11T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 2:** First Ansible playbook: manage users, SSH keys and sudo rules
+([video, no sound](https://echo360.org.uk/lesson/G_0511e05b-e831-4dbb-9ee5-e1895b28a063_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-11T19:40:00.000_2019-09-11T21:15:00.000/classroom#sortDirection=desc)).
 
 ### Week 3
->**topic:** Web servers. Ansible configuration file.  
->**lab 3:** Apache HTTPd with PHP module.
+>**Topic:** Web servers; Ansible configuration file
+([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-18T18:10:00.000_2019-09-18T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 3:** Apache HTTPd with PHP module
+(no video).
 
 ### Week 4
->**topic:** Web application. Ansible variables.  
->**lab 4:** Apache HTTPd, WordPress and MySQL server.
+>**Topic:** Web application; Ansible variables
+([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-25T18:10:00.000_2019-09-25T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 4:** Apache HTTPd, WordPress and MySQL server
+(no video).
 
 ### Week 5
->**topic:** Templates  
->**lab 5:** Jinja2 templates  
->**services:** DNS
+>**Topic:** DNS; Ansible templates
+([video, since 02:42](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-10-02T18:10:00.000_2019-10-02T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 5:** Jinja2 templates
+([video, since 04:57, no sound](https://echo360.org.uk/lesson/G_0511e05b-e831-4dbb-9ee5-e1895b28a063_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-10-02T19:40:00.000_2019-10-02T21:15:00.000/classroom#sortDirection=desc)).
 
 ### Week 6
->**topic:** Advanced templates  
->**lab 5:** Jinja2 magic  
->**services:** DNS
+>**Topic:** DNS; Advanced Ansible templates
+([video, since 01:20](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-10-09T18:10:00.000_2019-10-09T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 5:** Jinja2 magic
+(no video).
 
 ### Week 7
->**topic:** Backups  
->**lab 6:** Backups  
->**services:** Backups
+>**Topic:** Backups
+([video, since 11:00](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-10-16T18:10:00.000_2019-10-16T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 6:** Backups
+(no video).
 
 ### Week 8
->**topic:** Backups  
->**lab 6:** Backups  
->**services:** Backups
+>**Topic:** Backups  
+>**Lab 6:** Backups  
 
 ### Week 9
 >**topic:** Monitoring  
