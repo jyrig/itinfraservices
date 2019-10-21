@@ -11,8 +11,8 @@ Unfortunately we do not have any course forum / discussion board set up, but you
 
 ## Course agenda
 ### Week 1
->**topic:** Infro to IaaC. Ansible basics. First playbook.  
->**lab 1:** VirtualBox, Ubuntu VM, first ansible commands
+>**Topic:** Infro to IaaC, Ansible basics, first playbook ([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-04T18:10:00.000_2019-09-04T19:45:00.000/classroom#sortDirection=desc)).  
+>**Lab 1:** VirtualBox, Ubuntu VM, first ansible commands ([video since 01:38, no sound](https://echo360.org.uk/lesson/G_0511e05b-e831-4dbb-9ee5-e1895b28a063_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-09-04T19:40:00.000_2019-09-04T21:15:00.000/classroom#sortDirection=desc))  
 
 ### Week 2
 >**topic:** Ansible playbooks.  
