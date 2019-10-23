@@ -2,7 +2,7 @@
 
 ## Current infrastructure
 
-![](infra-lab-6.png)
+![](lab-6-1-infra.png)
 
 ## Task
 
