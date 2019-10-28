@@ -57,14 +57,14 @@ Unfortunately we do not have any course forum / discussion board set up, but you
 >**Lab 6:** Backups  
 
 ### Week 9
->**topic:** Monitoring  
->**lab:** Install prometheus  
->**services:** Prometheus
+>**topic:** Troubleshooting services  
+>**lab:** Checking previous labs  
+>**services:** All services
 
 ### Week 10
->**topic:** Logging  
->**lab:** Telegraf, InfluxDB, Grafana  
->**services:** Centralised logging
+>**topic:** Ansible roles  
+>**lab:** Install Prometheus  
+>**services:** Prometheus
 
 ### Week 11
 >**topic:** Logging  
