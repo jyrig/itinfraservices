@@ -1,3 +1,4 @@
+Wednesday labs:
 - configure proper networking
 - install bind9 with master/slave
 - restrict clients by source networks
@@ -9,3 +10,9 @@
  - ns.<startup> should return 2 IPs
 - dns records should come from variables
 - every dns records updates should increase serial numbers
+
+Monday labs:
+- configure proper networking
+- install bind9
+- restrict clients by source networks
+- configure forwarders, if variable exists
