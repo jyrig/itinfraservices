@@ -1,0 +1,8 @@
+1. Install node_exporters to all hosts
+2. Install Prometheus to one host
+3. Variables:
+  - Prometheus version
+  - Monitored hosts
+4. Prometheus and Exporters should run with own users
+5. Only fqdn in Prometheus config, no IPs allowed
+6. Prometheus web interface is at prometheus.<your-startup-fqdn>:9090
