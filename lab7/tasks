@@ -6,3 +6,4 @@
 4. Prometheus and Exporters should run with own users
 5. Only fqdn in Prometheus config, no IPs allowed
 6. Prometheus web interface is at prometheus.<your-startup-fqdn>:9090
+7. No parameters for ansible-playbook command
