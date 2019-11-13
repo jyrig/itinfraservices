@@ -74,14 +74,14 @@ Unfortunately we do not have any course forum / discussion board set up, but you
 >**Files:** [troubleshooting]
 
 ### Week 10
->**topic:** Monitoring  
+>**topic:** Ansible roles  
 >**lab:** Install prometheus  
 >**services:** Prometheus
 
 ### Week 11
->**topic:** Logging  
->**lab:** Telegraf, InfluxDB, Grafana  
->**services:** Centralised logging
+>**topic:** Monitoring  
+>**lab:** Prometheus exporters, Grafana  
+>**services:** Prometheus
 
 ### Week 12
 >**topic:** Logging  

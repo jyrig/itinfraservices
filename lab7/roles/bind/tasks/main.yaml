@@ -1,0 +1,36 @@
+- name: install bind
+  apt:
+    package: bind9
+
+- name: download go
+  get_url:
+    url: https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz
+    dest: /opt/go1.13.3.linux-amd64.tar.gz
+
+- name: folder
+  file:
+    path: /opt/go
+    state: directory
+    mode: '0755'
+
+- name: untar
+  unarchive:
+    src: /opt/go1.13.3.linux-amd64.tar.gz
+    dest: /opt/go
+    remote_src: yes
+
+- name: Create a symbolic link
+  file:
+    src: /opt/go/go/bin/go
+    dest: /usr/local/bin/go
+    state: link
+
+- name: go get
+  shell: "go get github.com/digitalocean/bind_exporter"
+
+- name: config
+  template:
+    src: named.conf.j2
+    dest: /etc/bind/named.conf
+  notify:
+    - restart bind

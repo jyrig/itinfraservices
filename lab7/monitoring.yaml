@@ -5,6 +5,8 @@
   become: yes
   roles:
     - node_exporter
+    - custom_exporter
+    - bind
 
 - name: prometheus
   hosts: prometheus
@@ -12,3 +14,4 @@
   become: yes
   roles:
     - prometheus
+    - grafana
