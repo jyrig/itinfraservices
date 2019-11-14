@@ -1,9 +1,6 @@
 - name: install dependencies
   apt:
-    package: "{{ item }}"
-  with_items:
-    - adduser
-    - libfontconfig1
+    package: ['adduser', 'libfontconfig1']
 
 - name: download grafana
   get_url:
@@ -18,3 +15,4 @@
   service:
     name: grafana-server
     state: started
+    enabled: yes

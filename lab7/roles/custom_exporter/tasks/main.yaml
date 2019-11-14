@@ -13,3 +13,4 @@
   service:
     name: custom_exporter
     state: started
+    enabled: yes

@@ -1,0 +1,21 @@
+---
+jobs:
+  - name: prometheus
+    port: 9090
+    targets:
+      - localhost
+  - name: ping
+    port: 9105
+    targets:
+      - infra01.pythonux.ttu
+      - infra02.pythonux.ttu
+  - name: linux
+    port: 9100
+    targets:
+      - infra01.pythonux.ttu
+      - infra02.pythonux.ttu
+  - name: bind
+    port: 9119
+    targets:
+      - ns1.pythonux.ttu
+      - ns2.pythonux.ttu
