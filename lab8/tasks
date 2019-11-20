@@ -1,0 +1,4 @@
+- install InfluxDB
+- install Telegraf
+- Configure centralised logging
+- No IPs allowed
