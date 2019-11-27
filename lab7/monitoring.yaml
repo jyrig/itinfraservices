@@ -1,0 +1,17 @@
+---
+- name: node_exporter
+  hosts: linux
+  remote_user: user
+  become: yes
+  roles:
+    - node_exporter
+    - custom_exporter
+    - bind
+
+- name: prometheus
+  hosts: prometheus
+  remote_user: user
+  become: yes
+  roles:
+    - prometheus
+    - grafana
