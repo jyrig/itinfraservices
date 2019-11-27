@@ -7,7 +7,7 @@ Task 1 was on [previous lab](task-1.md).
 ## Task 2
 
 First, let's get out project setup right. Since now on, we expect any lab
-direcvtory on you Git repo to contain these files:
+directory on you Git repo to contain these files:
  - `ansible.cfg`
  - `hosts`
  - `init.yml`
