@@ -52,7 +52,7 @@ Hints
 
 Example setup:
  - Virtual machine 1: Wordpress, Bind slave
- - Virtual machine 2: Prometheus, Grafana, Bind master
+ - Virtual machine 2: MySQL, Prometheus, Grafana, Bind master
 
 APT packages for Prometheus exporters can be found here:
 https://packages.ubuntu.com/search?suite=bionic&keywords=prometheus
