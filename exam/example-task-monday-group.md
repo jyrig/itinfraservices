@@ -35,11 +35,14 @@ Requirements to infrastructure setup:
  5. Prometheus configuration should not use any IP addresses -- only hostnames
  6. All services should 'survive' the machine restart -- i. e. started
     automatically once machine is rebooted
+ 7. All passwords and secrets in your GitHub repository must be encrypted!
 
 Requirements to Ansible code:
- 1. Playbook `infra.yaml` should not contain any tasks -- only included roles.
- 2. Playbook `infra.yaml` should not configure SSH, sudo or networking -- if
-    needed, do this in a separate playbook called `init.yaml`.
+ 1. Playbook `infra.yaml` should not contain any tasks -- only included roles
+ 2. Playbook `infra.yaml` should not ask for any passwords -- only read the
+    values from variable files
+ 3. Playbook `infra.yaml` should not configure SSH, sudo or networking -- if
+    needed, do this in a separate playbook called `init.yaml`
 
 This command (run as unprivileged user, with no additional parameters) must be
 enough to provision the entire required infrastructure:
@@ -59,4 +62,4 @@ https://packages.ubuntu.com/search?suite=bionic&keywords=prometheus
 
 The only password you need is the MySQL password for Wordpress. No other
 passwords are needed for this setup, but you may introduce some if you feel the
-need -- it is not forbidden. Still, **all** secrets must be encrypted.
+need -- it is not forbidden. Still, **all** the secrets must be encrypted.
