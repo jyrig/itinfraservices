@@ -9,6 +9,10 @@ Email: roman.kuchin@itcollege.ee
 
 Unfortunately we do not have any course forum / discussion board set up, but you can use [GitHub issues](https://github.com/romankuchin/itinfraservices/issues) for that.
 
+## Exam
+
+Info and example tasks [here](./exam).
+
 ## Course agenda
 ### Week 1
 >**Topic:** 1. Infro to IaaC; Ansible basics, first playbook
@@ -101,16 +105,17 @@ Unfortunately we do not have any course forum / discussion board set up, but you
 >**Files:** [lab9](./lab9)
 
 ### Week 14
->**Topic:** TODO  
->**Lab:** TODO  
->**Files:** TODO
+>**Topic:** 10. Load balancing
+([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-12-04T18:10:00.000_2019-12-04T19:45:00.000/classroom#sortDirection=desc))  
+>**Lab:** HAProxy  
+>**Files:** [lab10](./lab10)
 
 ### Week 15
 >**Exam preparations**  
 >**Lab:** Final lab. Infrastructure setup  
->**Files:** TODO
+>**Files:** [exam](./exam)
 
 ### Week 16
 >**Exam preparations**  
 >**Lab:** Final lab. Infrastructure setup  
->**Files:** TODO
+>**Files:** [exam](./exam)
