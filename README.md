@@ -111,7 +111,8 @@ Info and example tasks [here](./exam).
 >**Files:** [lab10](./lab10)
 
 ### Week 15
->**Exam preparations**  
+>**Exam preparations**
+([video](https://echo360.org.uk/lesson/G_13a7f8b9-3244-47df-baab-81ab226be62c_e2b66640-1026-46c8-b739-aaefd4dcfe10_2019-12-11T18:10:00.000_2019-12-11T19:45:00.000/classroom#sortDirection=desc))  
 >**Lab:** Final lab. Infrastructure setup  
 >**Files:** [exam](./exam)
 
