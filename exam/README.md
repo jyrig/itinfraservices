@@ -14,11 +14,12 @@ First exam attempt: week 16 lab
 If you can present a working solution during this lab then the exam is
 considered passed, you don't need to register to any further exams.
 
-If you can not, then there are three more official exam times -- you can
+If you can not, then there are four more official exam times -- you can
 register on any **one or two** of these:
- 1. Monday, December 30 @ 13:00
- 2. Friday, January 3 @ 13:00
- 3. Tuesday, January 7 @ 09:00
+ 1. Monday,     December 30  @  13:00
+ 2. Friday,     January   3  @  13:00
+ 3. Tuesday,    January   7  @  09:00
+ 4. Wednesday,  January  22  @  09:00
 
 
 Exam pre-requisites
