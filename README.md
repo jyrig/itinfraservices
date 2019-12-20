@@ -3,6 +3,11 @@ IT infrastructure services course materials
 
 Main page with supporting information about the course
 
+> **Note**
+>
+> We've added another exam date: January 22.
+> More info [here](./exam).
+
 Link to lecture recordings: https://echo360.org.uk/section/0a7e8d1b-9780-41b0-a533-656c31c59b74/public
 
 Email: roman.kuchin@itcollege.ee
